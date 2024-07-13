@@ -3,10 +3,10 @@ h1 {
     background-color: plum;
 }
 button {
-    color: magenta;
-    background-color: azure;
+    color: rgb(255, 0, 255);
+    background-color: hwb(180 94% 0%);
 }
 p {
-    color: olive;
-    background: orange;
+    color: hsl(60, 100%, 25%);
+    background: #ffa500;
 }
