@@ -113,3 +113,18 @@ div {
 }
 ```
 
+## Display Property
+- The display CSS property sets whether an element is treated as a block or inline box and the layout used for its children, such as flow layout, grid or flex.
+- Block: The element generates a block box, generating line breaks both before and after the element when in the normal flow.
+- Inline: The element generates one or more inline boxes that do not generate line breaks before or after themselves. In normal flow, the next element will be on the same line if there is space.
+- Inline-block: it is used in block elements to form inline elements vice-versa.
+- None diplay: This doesn't display it on the browser but conatins the written code.
+```
+.container {
+  display: inline;
+  display: block;
+  display: inline-block;
+  display: none;
+}
+```
+
