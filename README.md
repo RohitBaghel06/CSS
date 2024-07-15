@@ -95,3 +95,21 @@ article > p {
 2. Non-inherited properties- which by default are set to initial value of the property
 - When no value for a non-inherited property has been specified on an element, the element gets the initial value of that property (as specified in the property's summary).
 
+## Box Model in CSS
+- The term "box model" is used when talking about design and layout.
+- The CSS box model is essentially a box that wraps around every HTML element. It consists of: content, padding, borders and margins.
+- Explanation of the different parts:
+
+Content - The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent
+Border - A border that goes around the padding and content
+Margin - Clears an area outside the border. The margin is transparent
+```
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+```
+
