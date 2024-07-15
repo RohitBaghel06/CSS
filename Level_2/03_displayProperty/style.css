@@ -1,0 +1,38 @@
+/* h1 {
+    background-color: goldenrod;
+    border: 1px solid white;
+    display: inline;
+} */
+
+h1 {
+    background-color: goldenrod;
+    border: 1px solid white;
+    width: 200px;
+    padding: 50px;
+    margin: 100px; /* All works*/
+    display: none;
+}
+
+/* span {
+    background-color: rgb(57, 196, 196);
+    border: 1px solid white;
+    display: block;
+} */
+
+span {
+    background-color: rgb(127, 33, 214);
+    border: 1px solid white;
+    width: 500px; /* Nothing happens why? */
+    padding: 10px;
+    margin: 50px;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: olivedrab;
+    border: 5px solid white;
+    /* display: inline; this is creating prob! */
+    display: inline-block;
+    margin: 50px;
+}
